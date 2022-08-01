@@ -2,7 +2,7 @@
 @import url("https://fonts.google.com/specimen/Fraunces");
 
 body {
-  background: hsl(228, 12%, 48%);
+  background: hsl(30, 38%, 92%);
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -17,7 +17,7 @@ body {
   justify-content: center;
   text-align: center;
   border-radius: 2%;
-  background: hsl(30, 38%, 92%);
+  background: hsl(0, 0%, 100%);
   overflow: hidden;
   width: 500px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
@@ -70,6 +70,8 @@ h1 {
   font-family: "Montserrat", serif;
   font-weight: 800;
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
 }
 
 .price s {
@@ -79,6 +81,7 @@ h1 {
   text-shadow: none;
   justify-content: center;
   text-align: center;
+  margin-left: 5px;
 }
 
 .addToCard {
@@ -90,9 +93,10 @@ h1 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   padding: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .addToCard img {
-  justify-content: center;
-  align-items: center;
+  margin-right: 5px;
 }
